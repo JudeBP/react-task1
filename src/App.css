@@ -28,6 +28,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Custom CSS */
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.employees-header {
+  display: flex;
+  align-items: center;
+}
+
+.employees-header button {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.add-random-btn {
+  color: black;
+}
+
+.table-employees {
+  min-width: 80%;
+  font-size: calc(10px + 1vmin);
+}
+
+.remove-btn {
+  background-color: rgb(201, 11, 11);
+  margin-left: 10px;
+  color: white;
+}
+
+.restore-btn {
+  background-color: green;
+  color: white;
 }
